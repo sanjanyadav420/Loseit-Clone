@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #85E0FF;
+}
+
+#navbar h3{
+    color: black;
+}
+
+#navbar h3:hover{
+    color: #4D8AAD;
+    cursor: pointer;
+}
+
+#logo{
+    width: 13rem;
+    margin-left: 40px;
+}
+
+#login{
+    width: 7rem;
+    height: 2.5rem;
+    font-size:16px;
+    margin-right: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color:#FB8902;
+}
+
+#login a{
+    color: white;
+}
+
+#logo_login{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#login{
+    margin-top: 25px;
+}
+
+
+
+
+#toppart_medile{
+    width: 40%;
+    margin-left:40rem;
+}
+
+#toppart_medile>h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-top: 0;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.83em;
+    margin-bottom: 10px;
+    color: #455555;
+
+}
+
+#toppart_medile>p{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-size: 20px;
+    color: #455555;
+  
+    
+}
+
+#toppart_medile>#Sign_Up{
+    outline: 0;
+    border-radius: 0.25rem;
+    background-color: #183962;
+    padding: 15px 30px;
+    text-align: center;
+    font-weight: 500;
+    margin: 20px auto;
+    border: 0;
+    display: inline-block;
+    letter-spacing: 1px;
+    border-color: transparent;
+    width: auto;
+    cursor: pointer;
+}
+
+#toppart_medile>#Sign_Up>a{
+    color: #fff;
+}
+
+#Rating i{
+    color: #FEDB38;
+}
+
+
+
+
+#apple #apple-icon{
+    color:#B1B7B7;
+}
+#android #android-icon{
+    color:#B1B7B7;
+}
+
+#android{
+    margin-left: 15px;
+}
+
+
+
+#phone_img img{
+    width: 20%;
+    height: 500px;
+    position: absolute;
+    top: 10rem;
+    left: 15rem;
+    vertical-align: middle;
+    border-style: none;
+    box-sizing: inherit;
+}
