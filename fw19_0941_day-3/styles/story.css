@@ -18,7 +18,7 @@
     border-radius: 6px;
     border: transparent;
 }
-#navbar>button>a{
+button>a{
     color: white;
     text-decoration: none;
     font-size: 16px;
@@ -89,13 +89,31 @@ h1{
     width: 5vw;
 }
 #featured-member-story{
-    border: 1px solid red;
-    height: 30vh;
+    /* height: 30vh; */
     text-align:center;
 }
 #inner-story{
-    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #f1f1f1;
     width: 48vw;
-    height: 10vh;
+    height: 40vh;
+    border-radius: 10px;
     margin: auto;
+    margin-top: 1%;
+}
+#inner-story>img{
+    width: 17%;
+    margin-left: 40%;
+    margin-bottom: -2%;
+}
+#inner-story+button{
+    margin-top: 2%;
+    margin-bottom: 5%;;
+    width: 20vw;
+    height: 6vh;
+    background-color: #FF8D00;
+    border-radius: 5px;
+    border: transparent;
 }
