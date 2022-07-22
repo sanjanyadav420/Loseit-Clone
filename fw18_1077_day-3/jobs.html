@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jobs</title>
     <style>
+
+        body{
+            margin:0px;
+            padding:0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
         .nav-bar{
             width: 75%;
             margin:auto;
@@ -17,7 +23,7 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         
-        a{
+        .nav-bar a{
             text-decoration: none;
             color: white;
         }
@@ -39,12 +45,53 @@
         .nav-bar img{
             width: 100%;
         }
+
+        .header{
+            height: 40vh;
+            margin: 0px;
+            margin-top: 10px;
+            padding: 0px;
+            text-align: center;
+            border: 1px solid transparent;
+        }
+
+        .header a{
+            text-decoration:none;
+            color: darkblue;
+            background-color: white;
+            padding: 20px 50px;
+            font-weight: bolder;
+            border-radius: 5px;
+        }
+
+        .header h1{
+            color: white;
+            font-weight: bolder;
+            font-size: 9.5vh;
+        }
+
+
+        .header{
+            background-image: url(https://assets.loseit.com/website/corporate/InteriorHeaderPattern.svg), linear-gradient(0.25turn, #FF8D00, #FF9400);
+            background-position: 100% 50%;
+            background-size: 100% 500px;
+            background-repeat: repeat;
+            height: 300px;
+        }
+
+
+
     </style>
 </head>
 <body>
     <div class="nav-bar">
-        <div><a href="#"><img src="https://assets.loseit.com/website/corporate/LoseIt_Logo_FullColor+(1).svg" alt=""></a></div>
+        <div><a href="index.html"><img src="https://assets.loseit.com/website/corporate/LoseIt_Logo_FullColor+(1).svg" alt=""></a></div>
         <div><a href="login.html">Login</a></div>
+    </div>
+
+    <div class="header">
+        <h1>Join the Lose it! Team</h1>
+        <a href="#">View Openings</a>
     </div>
 </body>
 </html>
