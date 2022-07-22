@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
-
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+}
+
+body a{
     text-decoration: none;
 }
 
@@ -18,11 +17,22 @@
     background-color: #85E0FF;
 }
 
-#navbar h3{
-    color: black;
+#navbar h4{
+    color: #183962;
+    text-align: center;
+    margin: 0px auto;
+    font-weight: 640;
+    box-sizing: inherit;
+    outline: 0;
+    padding: 15px 30px;
+    display: inline-block;
+    letter-spacing: 1px;
+    width: auto;
+    font-size: 17px;
+
 }
 
-#navbar h3:hover{
+#navbar h4:hover{
     color: #4D8AAD;
     cursor: pointer;
 }
@@ -30,7 +40,7 @@
 #logo{
     width: 13rem;
     margin-left: 40px;
-    margin-top: -5.5rem;
+    /* margin-top: -5rem; */
 }
 
 #login{
@@ -193,26 +203,8 @@
 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-* {
-    font-family: 'Poppins', sans-serif;
-}
 
-img {
-    height: 280px;
-}
-
-body {
-    background: hsl(0, 0, 94%);
-}
-
-#main{
-    /* margin-top: 50rem; */
-    padding: 20px;
-    /* width: fit-content; */
-    background: #F1F1F1;
-}
 #image,#image-2,#image-3,
 #image-4,#image-5,#image-6{
     width: 140px;
@@ -236,3 +228,154 @@ body {
 .card-title p{
     color: #97999B;
 }
+
+
+
+
+
+
+
+
+
+#medileSecend{
+    display: flex;
+    flex-direction: column;
+   justify-content: center; 
+align-items: center;
+margin-bottom: 5rem;
+}
+
+#medileSecend>h1{
+    color: #ff9400;
+    font-size: 6.5em;
+    font-weight: 700;
+    margin: 10px auto;
+}
+#medileSecend>h4{
+    color: #455555;
+    letter-spacing: .4em;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 10px auto;
+}
+
+#medileSecend>img {
+    height: 280px;
+}
+
+
+#medileSecend>hr{
+    border: 5px solid #FF9400;
+    width: 50px;
+    margin-bottom: 40px;
+    margin-top: 1rem;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+
+#medileSecend_logo{
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+   
+}
+#medileSecend_logo>img{
+    width: 120px;
+    height: auto;
+
+}
+
+#Seen{
+    color: #183962;
+    margin-top: 60px;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 500;
+    box-sizing: inherit;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#medilethird{
+    padding: 3rem;
+    text-align: center;
+    background: #183962;
+    height: 570px;
+}
+
+#medilethird>h3{
+    color: #F1F1F1;
+    margin-bottom: 2rem;
+}
+
+
+#medilethird-card{
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#medilethird-card img{
+    width: 200px;
+    height: auto;
+    position: relative;
+    align-self: center;
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+.medilethird-card1 p{
+    width: 300px;
+    color: #F5891D;
+}
+
+.medilethird-card1 .last{
+    align-self: center;
+    font-size: .8em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+
+#medilethird>button{
+    font-size: 1em;
+    font-weight: 400;
+    right: 0;
+    background-color: #ff9400;
+    margin: 20px 20px;
+    text-align: center;
+    padding: 10px 40px;
+    border-radius: 0.25rem;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+}
+
+#medilethird>button a{
+    color: #fff;
+}
+
