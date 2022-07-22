@@ -13,6 +13,8 @@ function myfunction(){
         // p.setAttribute("id","dubara")
         p.innerText="please fill all the information which is mentioned above";
         // break;
+
+        
         // p.setAttribute("id","dubara")
         p.style.color="red";
         p.style.fontSize="12px"

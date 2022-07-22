@@ -3,6 +3,8 @@ console.log(store);
 document.querySelector("#form").addEventListener("submit",myfunction);
 function myfunction(){
     event.preventDefault();
+
+    
     let objt={
         email:form.email.value,
         password:form.password.value,
