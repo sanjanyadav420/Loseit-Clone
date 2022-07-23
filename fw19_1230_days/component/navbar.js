@@ -11,11 +11,11 @@ function navbar(){
             alt=""
           /></button>
             <div class="dropdown-content">
-            <a href="#">Corporate Updates</a>
-            <a href="#">Tech & Science</a>
+            <a href="https://loseitblog.com/corporate-updates/">Corporate Updates</a>
+            <a href="https://loseitblog.com/tech-and-science/">Tech & Science</a>
             <a href="fitness.html">Nutrition & Fitness</a>
             <a href="recipes.html">Lose It! Recipes</a>
-            <a href="#">Success Stories</a>
+            <a href="https://loseitblog.com/success-stories/">Success Stories</a>
             </div>
           </div>
           <div class="dropdown-1">
@@ -24,11 +24,11 @@ function navbar(){
             alt=""
           /></button>
             <div class="dropdown-content-1">
-            <a href="#">LoseIt.com</a>
-            <a href="#">About the Writers</a>
+            <a href="https://www.loseit.com/">LoseIt.com</a>
+            <a href="https://loseitblog.com/about-the-writers/">About the Writers</a>
             </div>
           </div>
-       <button>Sign Up</button> 
+       <button><a href="#">Sign Up</a></button> 
       </div> `;
 }
 export default navbar;
