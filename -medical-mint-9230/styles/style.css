@@ -42,6 +42,10 @@
     width: 100px;
     border: transparent;
 }
+.menu-bar button a:last-child{
+  color: #ffff;
+  text-decoration: none;
+}
 .menu-bar button:first-child{
     padding: 6px 15px;
     margin-right: 20px;
@@ -167,7 +171,7 @@
 /* RecipesBoxInhome */
 .more-r{
   margin-left: 560px;
-  margin-top:-190px;
+  margin-top:-170px;
   padding: 25px;
   width: 340px;
   background-color: #ff9400;
@@ -187,47 +191,55 @@
   color: #ffff;
 }
 
-#recipesbox div img{
-  width: 400px;
-}
-#recipesbox {
-  width: 80%;
-  padding: 175px 0px 255px 140px;
+#recipesbox { 
   display: flex;
-  flex: 1 auto;
-  gap: 10px;
+  width: 90%;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  padding: 250px 80px;
+  flex: 1 1;
+  gap: 5px;
   margin: auto;
   margin-top: 100px;
-  margin-left: 170px;
+  /* margin-left: 170px; */
   background-image: url(https://i.pinimg.com/736x/d5/37/68/d53768ca2e73724a06a47bb950ede781.jpg);
  
 }
 .box1{
   flex-wrap: wrap;
-  
+  margin: auto;
+  margin-top: -30px; 
+  margin-right: -52px;
 }
 .box1 img{
   margin: auto;
-  width: 600px;
-  height: 500px;
+  width: 730px;
+  height: 495px;
+  /* filter: brightness(65%); */
   
 }
 .box1 img:hover{
-  opacity: 60%;
+  filter: brightness(50%);
 }
 .box2{
-  flex-wrap: wrap;
-  
+  width: 20%; 
+  margin: auto;
+  margin-top: -30px;
 }
-.box2  img{
-  width: 80px;
-  height: 248px;
+
+.box2 div img{
+  width: 240px;
+  height: 245px;
+  margin: auto;
+  /* filter: brightness(65%); */
+
 }
 .box2  img:hover{
-  opacity: 60%;
+  filter: brightness(50%);
 }
-.box2 div:nth-child(1){
-  margin-bottom: 50px;
+.box2 div img:nth-child(1){
+  margin-bottom:0px;
 }
 
 .heading{
@@ -240,16 +252,17 @@
 }
 #recipesbox .head{
   text-decoration: none;
-  margin-top: -80px;
+  margin-top: -83px;
   color: #FFFFFF;
-  font-size: 27.6px; 
+  font-size: 23.8px; 
+  text-align: left;
+  margin-left: 10px;
 }
 
   /* fitnesspartInhomepage */
   #head-2{
   color: #21217a;
   margin-top: 250px;
-  /* margin-bottom: -180px; */
   text-align: center;
   font-size: 50px;
   margin-left: 90px;
@@ -316,6 +329,54 @@
     margin-bottom: 20px;
   }
   .load-1 a{
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  /* homepageCorporate Updates */
+  .fot{
+    width: 85%;
+    margin: auto;
+    border: 1px solid gray;
+    margin-bottom: 130px;
+  }
+  .poster{
+    width: 80%;
+    margin: auto;
+    margin-left: 160px;
+  }
+  .head-3{
+    text-align: center;
+    font-size: 40px;
+    font-family: Avenir, sans-serif;
+    color: #183962;
+    font-style: normal;
+  }
+  .para-1{
+    width: 80%;
+    margin: auto;
+    margin-left: 150px;
+    font-family: Avenir, sans-serif;
+    color: #455555;
+    font-style: normal;
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 2;
+  }
+  .btnn{
+    margin: auto;
+    margin-left: 550px;
+    padding: 20px;
+    border-radius: 6px;
+    width: 20%;
+    color: #FFFFFF;
+    background-color: #FF9400;
+    border: none;
+    font-size: 22px;
+    margin-top: 90px;
+    margin-bottom:20px;
+  }
+  .btnn a{
     text-decoration: none;
     color: #FFFFFF;
   }
@@ -578,16 +639,21 @@ h1{
   font-family: "Avenir",Arial ,sans-serif;
 }
 .iconlogo{
+  display: flex;
+  align-items: center;
   margin-left: 130px;
-  margin-top: 20px;
+   margin-top: 20px; 
+
+
 }
 .iconlogo img{
   width: 55px;
+  /* padding-bottom: 10px; */
 }
-.btn{
-  padding: 8px;
-  margin-top:20px;
-}
+ .btn{
+  text-align: center;
+  padding: 3px;
+} 
 .btn img{
   width: 20px;
 }
@@ -621,3 +687,61 @@ opacity: 80%;
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
   }
+  /* Footerpart */
+  #footer{
+    width: 100%;
+    background-color: hsl(213, 90%, 15%);
+    display: flex;
+    margin-top: 100px;
+  }
+  #footer div{
+    margin-top: 50px;
+    padding: 40px;
+    width: 40%;
+    margin-left: -30px;
+  }
+  #footer div:last-child{
+    margin-left: 180px;
+  }
+  #footer input{
+    padding: 12px 38px ;
+    text-align: left;
+    font-size: 18px;
+  }
+  #footer button{
+    padding: 14px 22px;
+    color: #000000;
+    background-color: rgb(89, 199, 199);
+    border: none;
+    font-size: 18px;
+  }
+  #footer .parag{
+    color: #FFFFFF;
+    margin-left: -20px;
+    margin-top: 20px;
+    line-height: 2;
+    font-size: 22px;
+    font-family: "Avenir", Arial,sans-serif;
+  }
+  #footer p a{
+    color: #5080B5;
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: -22px;
+    font-family: "Avenir", Arial,sans-serif;
+  }
+  #footer p a:hover{
+    cursor: pointer;
+    text-decoration: 2px underline;
+  }
+  .logo-II{
+    display: inline;
+    width: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+  }
+  .logo-II:nth-child(2){
+    width: 50px;
+  }
+  
