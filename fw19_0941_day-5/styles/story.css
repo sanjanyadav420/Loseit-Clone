@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+}
+#navbar{
+  height: 17vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#navbar>a>img{
+    width: 15vw;
+    margin-right: 55vw;
+}
+#navbar>button{
+    width: 9vw;
+    height: 6vh;
+    background-color: #FF8D00;
+    border-radius: 6px;
+    border: transparent;
+}
+button>a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48vh;
+    background-image:url(https://assets.loseit.com/website/corporate/InteriorHeaderPattern.svg), linear-gradient(0.25turn, #FF8D00, #FF9400);   
+    background-size: 77% 286px;
+}
+#banner>h1{ 
+    text-align: center;
+    color: white;
+    font-size: 6vw;
+
+}
+#content{
+    width: 50vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 7vh;
+    margin-bottom: 10vh;
+}
+#content>img{
+    width: 11vw;
+    margin-bottom: 2vh;
+}
+#content>p:last-child{
+     margin-top: 2vh;
+}
+#box{
+    display: flex;
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 80vh;
+}
+#journey{
+    width: 50vw;
+    text-align: center;
+    margin: auto;
+}
+h1{
+   margin-bottom: 2vh;
+   color: #183962;     
+}
+#badges{
+    width: 90%;
+    margin: auto;
+    margin-top: 4vh;
+    display: grid;
+    grid-template-columns: repeat(2,49%);
+    grid-template-rows: 20vh 20vh;
+    gap: 1.2em;
+    justify-content: center;
+} 
+#badges>div{
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF8D00;
+}
+#badges>div>img{
+    width: 5vw;
+}
+#featured-member-story{
+    /* height: 30vh; */
+    margin: 6% 0 6% 0;
+    text-align:center;
+}
+#inner-story{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #f1f1f1;
+    width: 48vw;
+    height: 40vh;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 1%;
+}
+#inner-story>img{
+    width: 17%;
+    margin-left: 40%;
+    margin-bottom: -2%;
+}
+#inner-story+button{
+    margin-top: 2%;
+    width: 20vw;
+    height: 6vh;
+    background-color: #FF8D00;
+    border-radius: 5px;
+    border: transparent;
+}
+
+#started-on-mobile{
+    background-image: url(https://assets.loseit.com/website/home/Pattern_50opacity_Long.svg);
+    background-color: #f1f1f1;
+    background-position: center;
+    background-size: cover;
+    padding: 6% 0 6% 0;
+    text-align: center;
+    color: #FF8D00;
+}
+#started-on-mobile>div>a>img{
+    width:17vw;
+    height:10vh;
+}
+#started-on-mobile>p{
+    padding-bottom: 3%;
+    font-size: 22px;
+}
+#footer{
+    background-color: #183962;
+    padding-top: 6%;
+    color: white;
+    padding-bottom: 5%;
+}
+#footer>div:first-child{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+    margin-left: -10%;
+    color: white;
+}
+#footer>div:first-child a:hover{
+    color: #FF8D00;
+}
+#footer>div>div>a>img{
+    width: 15vw;
+}
+#footer p{
+    margin-bottom: 1%;
+}
+#footer>#icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20vw;  
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 41vw;
+    margin-bottom: 2%;
+}
+#copyright{
+    text-align: center;
+    font-size: 16px;
+}
+i:hover{
+    color: #FF8D00;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#copyright a:hover{
+    color: #FF8D00;
+}
