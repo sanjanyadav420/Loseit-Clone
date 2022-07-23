@@ -7,7 +7,7 @@
   justify-content: space-around;
   align-items: center;
 }
-#navbar>img{
+#navbar>a>img{
     width: 15vw;
     margin-right: 55vw;
 }
@@ -134,4 +134,49 @@ h1{
 #started-on-mobile>p{
     padding-bottom: 3%;
     font-size: 22px;
+}
+#footer{
+    background-color: #183962;
+    padding-top: 6%;
+    color: white;
+    padding-bottom: 5%;
+}
+#footer>div:first-child{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+    margin-left: -10%;
+    color: white;
+}
+#footer>div:first-child a:hover{
+    color: #FF8D00;
+}
+#footer>div>div>a>img{
+    width: 15vw;
+}
+#footer p{
+    margin-bottom: 1%;
+}
+#footer>#icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20vw;  
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 41vw;
+    margin-bottom: 2%;
+}
+#copyright{
+    text-align: center;
+    font-size: 16px;
+}
+i:hover{
+    color: #FF8D00;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#copyright a:hover{
+    color: #FF8D00;
 }
