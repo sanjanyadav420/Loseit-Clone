@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Jobs</title>
+    <style>
+
+        body{
+            margin:0px;
+            padding:0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover{
+            opacity: 60%;
+        }
+        .nav-bar{
+            width: 75%;
+            margin:auto;
+            margin-top: 20px;
+            color:white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .nav-bar a{
+            text-decoration: none;
+            color: white;
+        }
+        
+
+        .nav-bar>div:nth-child(2){
+            background-color: orange;
+            padding: 10px 40px;
+            border-radius: 5px;
+            color: white;
+        }
+
+
+
+        .nav-bar>div:nth-child(1){
+            width: 200px;
+        }
+
+        .nav-bar img{
+            width: 100%;
+        }
+
+        .header{
+            height: 40vh;
+            margin: 0px;
+            margin-top: 10px;
+            padding: 0px;
+            text-align: center;
+            border: 1px solid transparent;
+        }
+
+        .header a{
+            text-decoration:none;
+            color: darkblue;
+            background-color: white;
+            padding: 20px 50px;
+            font-weight: bolder;
+            border-radius: 5px;
+        }
+
+        .header h1{
+            color: white;
+            font-weight: bolder;
+            font-size: 9.5vh;
+        }
+
+
+        .header{
+            background-image: url(https://assets.loseit.com/website/corporate/InteriorHeaderPattern.svg), linear-gradient(0.25turn, #FF8D00, #FF9400);
+            background-position: 100% 50%;
+            background-size: 100% 500px;
+            background-repeat: repeat;
+            height: 300px;
+        }
+
+        .acv{
+            margin: 40px auto; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap:25px;
+            
+        }
+
+        .acv img{
+            /* height: 100%; */
+            width: 100px;
+        }
+
+        .desc{
+            width: 45%;
+            margin: auto;
+        }
+
+        .desc h1{
+            text-align: center;
+            color: darkblue;
+        }
+
+        .desc li{   
+            font-weight: 100;
+            font-size: 14px;
+        }
+
+        .desc p{
+            font-size: 14px;
+            line-height: 17px;
+        }
+
+
+
+        .orange{
+            color:#FF8D00;
+            font-weight: bold;
+        }
+
+        .button{
+            background-color: #FF8D00;
+            padding: 10px 40px;
+            width:max-content;
+            border-radius: 5px;
+            color: white;
+            margin: auto;
+        }
+
+        .moto{
+            background-color: #183962;
+            height:auto;
+            margin: 100px 0px;
+            padding: 70px 26%;
+            display: flex;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .moto img{
+            width: 100px;
+        }
+
+        .moto>div:nth-child(1){
+            width: 60%;
+        }
+
+        .show{
+            width:70%;
+            margin: auto;
+            display: flex;
+            gap: 10px;
+        }
+
+        .show img{
+            width: 50vh;
+        }
+
+        .pb{
+            text-align: center;
+            padding: 0px 26%;
+            margin: 100px 0px;
+        }
+
+        .pb>div{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .pb h1{
+            color:#183962;
+        }
+
+
+        .pb img{
+            width:100px;
+        }
+
+        .pb p{
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .connect{
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 70px;
+        }
+
+        .connect>h2{
+            color: #183962;
+        }
+
+        .connect>div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .connect img{
+            width: 100px;
+        }
+
+        .apps{
+        text-align: center;
+        font-size: large;
+        padding: 50px 0 70px 0;
+        background-color: #f1f1f1;
+        background-image: url(https://assets.loseit.com/website/home/Pattern_50opacity_Long.svg);
+        background-size: cover;
+        background-position: center;
+        color: #FF8D00;
+        }
+
+        .apps>div{
+            display: flex;
+            gap:30px;
+            justify-content: center;
+            align-items: center;
+            margin: 30px 0 auto auto;
+        }
+
+        .apps img{
+            width: 180px;
+        }
+
+        .footer{
+            background-color: #183962;
+            color: white;
+            padding:90px;
+
+        }
+
+        .section-1{
+            width: 60%;
+            margin-left: 13%;
+            display: flex;
+            justify-content: space-between;
+            line-height: 10px;
+            margin-bottom: 50px;
+        }
+
+        .section-1 a:hover{
+            color: orange;
+        }
+
+        .section-1 img{
+            width: 200px;
+        }
+
+        .section-2{
+            line-height: 10px;
+        }
+
+        .section-2>div:nth-child(1){
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .section-2>div:nth-child(2){
+            text-align: center;
+            line-height: 7px;
+            font-size: small;
+        }
+
+        .section-2 a:hover{
+            color: orange;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <div><a href="index.html"><img src="https://assets.loseit.com/website/corporate/LoseIt_Logo_FullColor+(1).svg" alt=""></a></div>
+        <div><a href="login.html">Login</a></div>
+    </div>
+
+    <div class="header">
+        <h1>Join the Lose it! Team</h1>
+        <a href="https://loseit.com/jobs/#currentOpenings">View Openings</a>
+    </div>
+
+    <div class="acv">
+        <img src="https://assets.loseit.com/website/corporate/JB_TopRatedeNPS.png" alt="">
+        <img src="https://assets.loseit.com/website/corporate/JB_TopCompanyBos.png" alt="">
+        <img src="https://assets.loseit.com/website/corporate/JB_TopCompanyWomen.png" alt="">
+        <img src="https://assets.loseit.com/website/corporate/JB_TopGrossing.png" alt="">
+        <img src="https://assets.loseit.com/website/corporate/JB_TopRated.png" alt="">
+        <img src="https://assets.loseit.com/website/corporate/JB_2020BestPlaceToWork.png" alt="">
+        <img src="https://assets.loseit.com/website/corporate/JB_50onFire2018Winner.png" alt="">
+    </div>
+
+    <div class="desc">
+        <h1>Why Work at Lose It!</h1>
+        <ul>
+            <li>Do you want to help people lose weight and live healthier lives? When our members succeed, we succeed.</li>
+            <li>Are you looking to join a small, inclusive team that uses problem-solving and creativity to get things done? We take pride in what we do and how we deliver.</li>
+            <li>Do you want to see the fruits of your labor? Everyone takes responsibility for the overall success of the company.</li>
+            <li>Have questions? We may not always have the answers, but we will be honest in our response.</li>
+        </ul>
+        <br>
+        <br>
+        <p><span class="orange">Compelling markets and technology:&nbsp;</span>Lose It! is at the forefront of health and fitness, corporate wellness, machine learning, nutrigenomics and mobile and cloud computing.</p>
+        <br>
+        <p><span class="orange">Our legacy of success:&nbsp;</span> Our members have lost over 100 million pounds, but it didn’t happen overnight and without hard work. Our founders are seasoned startup professionals; they've taken a company public, sold companies to Macromedia and Microsoft, and raised capital from firms ranging from General Catalyst to Polaris to United Healthcare's Innovation Group. Now we enjoy the energy of a start-up culture but with the stability of a profitable business with plans for the future. When our members succeed, we succeed. Come share in our success!</p>
+        <br>
+        <p><span class="orange">Small team, deep and interesting challenges:&nbsp;</span> We may be a small team (under 50 people total), but we're always pushing each other to be better at what we do. Sometimes that means wearing different hats and learning new skills to get things done.</p>
+        <br>
+        <p><span class="orange">Professional growth opportunities:&nbsp;</span>We encourage continuous learning through sponsoring employees to attend conferences and seminars to network, expand their knowledge and build their skillset. We also incorporate team building exercises, brainstorming sessions, and retreats to optimize how we work together as a team.</p>
+        <br>
+        <p><span class="orange">Professional development opportunities:&nbsp;</span>We are always learning. Whether it’s together in our work, attending conferences, training or networking with others, we bring back knowledge and share what we’ve learned with our team.</p>
+        <br>
+        <p><span class="orange">We have fun together:&nbsp;</span>We love what we do and as a team we have a genuine camaraderie with one another. The work isn’t always easy but we enjoy the challenge of problem-solving together.</p>
+    </div>
+    
+    <div class="moto">
+        <div><img src="https://s3.amazonaws.com/assets.loseit.com/website/diversity_inclusion/DandI_Statement.png" alt=""></div>
+        <div><h3>Diversity, Equity, & Inclusion</h3>
+        <p>Lose It! is committed to creating a diverse and inclusive environment where employees can thrive. An important goal of our small team dynamic is making every member feel like they are a part of the team.</p>
+        <div class="button"><a href="https://loseit.com/diversity/">Learn More</a> </div>
+        </div>
+    </div>
+
+    <div class="show">
+        <img src="https://assets.loseit.com/website/corporate/redsox_photo1.jpg" alt="">
+        <img src="https://assets.loseit.com/website/corporate/socialHour.jpg" alt="">
+        <img src="https://assets.loseit.com/website/corporate/redsox.jpg" alt="">
+    </div>
+
+    <div class="pb">
+        <h1>Perks & Benefits</h1>
+        <div>
+            <div>
+                <img src="https://assets.loseit.com/2020/401k.png" alt="">
+                <p>401k Plan</p>
+            </div>
+            <div>
+                <img src="https://assets.loseit.com/2020/flexible-hours.png" alt="">
+                <p>Flexible Hours</p>
+            </div>
+            <div>
+                <img src="https://assets.loseit.com/2020/wellness.png" alt="">
+                <p>Wellness Reimbursement</p>
+            </div>
+            <div>
+                <img src="https://assets.loseit.com/2020/annual-retreat.png" alt="">
+                <p>Annual Company Retreat</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="connect">
+        <h2>Let's Get Connected</h2>
+        <div>
+            <a href="https://www.comparably.com/companies/lose-i"><img src="https://assets.loseit.com/website/corporate/Jobs_LGC_Comparably.png" alt=""></a>
+            <a href="https://www.linkedin.com/company/lose-it-"><img src="https://assets.loseit.com/website/corporate/Jobs_LGC_LinkedIn.png" alt=""></a>
+            <a href="https://www.glassdoor.com/Overview/Working-at-Lose-It-EI_IE1727866.11,18.htm"><img src="https://assets.loseit.com/website/corporate/Jobs_LGC_Glassdoor.png" alt=""></a>
+            <a href="https://venturefizz.com/lose-it"><img src="https://assets.loseit.com/website/corporate/Jobs_LGC_BizzPages.png" alt=""></a>
+        </div>
+    </div>
+
+    <div class="apps">
+        <p>Get Started on Mobile</p>
+        <div>
+            <a href="https://loseit.com/get/apple/"><img src="https://assets.loseit.com/website/home/Download_Apple.svg" alt=""></a>
+            <a href="https://loseit.com/get/android/"><img src="https://assets.loseit.com/website/home/Download_GooglePlay.svg" alt=""></a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="section-1">
+            <div>
+                <img src="https://assets.loseit.com/website/home/Footer_WhiteKnockOutLogo.svg" alt="">
+            </div>
+            <div>
+                <p><a href="https://loseit.com/about/">About</a> </p>
+                <p><a href="https://loseitblog.com/"> Blog</a></p>
+                <p><a href="https://help.loseit.com/hc/en-us/requests/new">Contact Us</a> </p>
+                <p><a href="https://loseit.com/jobs/">Careers</a> </p>
+                <p><a href="https://loseit.com/press/">Press & Media Kit</a> </p>
+            </div>
+            <div>
+                <p><a href="https://loseit.com/how-it-works/"> Premium</a></p>
+                <p><a href="https://loseit.com/partners/">Partners/API</a> </p>
+                <p><a href="https://loseit.com/account/"> Get Lose It!</a> </p>
+                <p><a href="https://help.loseit.com/hc/en-us">FAQ</a> </p>
+            </div>
+        </div>
+
+        <div class="section-2">
+            <div>
+                <a href="https://www.facebook.com/loseit/"><i class="fa fa-facebook-official" style="font-size:23px"></i></a>
+                <a href="https://www.instagram.com/loseitapp/"><i class="fa fa-instagram" style="font-size:23px"></i></a>
+                <a href="https://www.twitter.com/loseit/"><i class="fa fa-twitter" style="font-size:23px"></i></a>
+                <a href="https://www.pinterest.com/loseit/"><i class="fa fa-pinterest" style="font-size:23px"></i></a>
+                <a href="https://www.linkedin.com/company/lose-it-"><i class="fa fa-linkedin" style="font-size:23px"></i></a>
+            </div>
+
+            <div>
+                <p>Copyright 2008-2021 FitNow, Inc, All Rights Reserved</p> 
+                <a href="https://loseit.com/privacy">privacy</a>
+                <p style="display: inline">|</p>
+                <a href="https://loseit.com/terms">Terms of Service</a>          
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
