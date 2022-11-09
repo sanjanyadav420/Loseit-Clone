@@ -1,1 +1,1 @@
-https://sanjanyadav420.github.io/-medical-mint-9230/
+https://gleeful-fudge-a8c03a.netlify.app/
