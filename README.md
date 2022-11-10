@@ -1,1 +1,1 @@
-https://gleeful-fudge-a8c03a.netlify.app/
+https://warm-lokum-aab554.netlify.app/
