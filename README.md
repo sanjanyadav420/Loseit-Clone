@@ -1,1 +1,1 @@
-https://warm-lokum-aab554.netlify.app/
+https://sanjanyadav420.github.io/-medical-mint-9230/
