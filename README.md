@@ -1,4 +1,5 @@
-https://sanjanyadav420.github.io/-medical-mint-9230/
+# Live
+https://sanjanyadav420.github.io/Loseit-Clone/
 
 Linding page
 ![Home](https://user-images.githubusercontent.com/101393474/201259064-59cd5009-4be2-4bdb-abcb-836644055710.png)
